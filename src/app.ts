@@ -18,3 +18,18 @@
 //     NOTFOUND = "bcjckclnklcnl"
 // }
 
+//Any
+
+// let a; //Here the variable 'a' its type has not defined so by defult it will any.
+// a = 12;
+// a = "swastik"
+
+//Unknown
+
+let a; // here also we didn't need to 
+a = 12;
+a = "swastik"
+
+if (typeof a === "string") {
+    a.toUpperCase();
+}
