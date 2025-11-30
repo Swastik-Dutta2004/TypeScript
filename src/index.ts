@@ -5,9 +5,11 @@
 // console.log(mySize );
 
 
-function calculateTax(income: number):number{
-    if (income < 50_000) 
+function calculateTax(income: number, taxYear = 2022):number{
+    if (taxYear < 2022) 
         return income * 1.2
-    return income * 1.2
+    return income * 1.3
     
 }
+
+calculateTax(10_999, 2022)
