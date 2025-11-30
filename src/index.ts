@@ -29,18 +29,22 @@
 //      }
 // }
 
-// Typr ALLiases
+// Type ALLiases
 
-type Employee = {
-    readonly id: number,
-    name: string,
-    retire: (Date: Date) => void
-}
+// type Employee = {
+//     readonly id: number,
+//     name: string,
+//     retire: (Date: Date) => void
+// }
 
-let employee: Employee =  {
-    id: 1,
-    name: "Swastik",
-    retire: (Date: Date) => {
-        console.log(Date);
-    }
-}
+// let employee: Employee =  {
+//     id: 1,
+//     name: "Swastik",
+//     retire: (Date: Date) => {
+//         console.log(Date);
+//     }
+// }
+
+//Union Types
+
+let arr:number[] = [1,2,3,4,5]
