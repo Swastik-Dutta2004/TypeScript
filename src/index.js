@@ -1,10 +1,8 @@
-"use strict";
 //Enum :-
 // // let user: [number, string] = [1, "swastik"]
 // const enum Size {Small = 1, Medium, Large};
 // let mySize :Size = Size.Medium
 // console.log(mySize );
-Object.defineProperty(exports, "__esModule", { value: true });
 //functions :-
 // function calculateTax(income: number, taxYear = 2022):number{
 //     if (taxYear < 2022) 
@@ -38,4 +36,3 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     }
 // }
 //Union Types
-//# sourceMappingURL=index.js.map

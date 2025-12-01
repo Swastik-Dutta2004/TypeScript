@@ -1,5 +1,4 @@
-function log <T>(a:T, b:string){
-    console.log(a,b);
-    
-}
-log("Swastik","dutta")
+import {getfunction, addfunction} from "./conect"
+
+getfunction("swastik")
+addfunction(20)
