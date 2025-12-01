@@ -1,11 +1,11 @@
 class Bottle {
-    protected name = "milton"
+    private name = "milton"
 }
 class name extends Bottle{
     public metal = "steel"
 
     changeName(){
-        this.name = "cello"
+        // this.name = "cello"
     }
 }
 
