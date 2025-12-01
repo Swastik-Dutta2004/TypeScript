@@ -1,5 +1,5 @@
-function abcd(...arr:number[]){
-    console.log(arr);
+function log <T>(a:T, b:string){
+    console.log(a,b);
     
 }
-abcd(1,2,3,4,5,6,7,8,9,10)
+log("Swastik","dutta")
