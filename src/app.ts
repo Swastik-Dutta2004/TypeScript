@@ -1,13 +1,7 @@
-class customer{
-    constructor (public name: string, public age: number,){
-    }
-
-    getName(){
-        return this.name;
-    }
-    setName(value: string){
-        this.name = value
-    }
+function abcd(name: string, age:number, cd:(argr: string) => void){
+    cd("hey")
 }
-
-let c1 = new customer("Subhraneel", 25)
+abcd("Swastik", 20, (argr: string) => {
+    console.log("abcd");
+    
+})
