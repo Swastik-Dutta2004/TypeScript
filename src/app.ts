@@ -1,7 +1,12 @@
-class bottel{
-    constructor(private name: string){
-        this.name = name
+class Bottle {
+    protected name = "milton"
+}
+class name extends Bottle{
+    public metal = "steel"
+
+    changeName(){
+        this.name = "cello"
     }
 }
 
-let b1 = new bottel("Cello")
+let b1 = new Bottle()
