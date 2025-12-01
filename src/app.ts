@@ -1,12 +1,13 @@
-class Bottle {
-    private name = "milton"
-}
-class name extends Bottle{
-    public metal = "steel"
+class customer{
+    constructor (public name: string, public age: number,){
+    }
 
-    changeName(){
-        // this.name = "cello"
+    getName(){
+        return this.name;
+    }
+    setName(value: string){
+        this.name = value
     }
 }
 
-let b1 = new Bottle()
+let c1 = new customer("Subhraneel", 25)

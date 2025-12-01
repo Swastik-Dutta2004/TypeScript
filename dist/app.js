@@ -1,9 +1,16 @@
-class Bottle {
+class customer {
     name;
-    constructor(name) {
+    age;
+    constructor(name, age) {
         this.name = name;
+        this.age = age;
+    }
+    getName() {
+        return this.name;
+    }
+    setName(value) {
+        this.name = value;
     }
 }
-let b1 = new Bottle("Milton");
-export {};
+let c1 = new customer("Subhraneel", 25);
 //# sourceMappingURL=app.js.map
