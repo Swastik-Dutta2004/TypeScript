@@ -1,6 +1,4 @@
-function abcd(name, age, cd) {
-    cd("hey");
+function abcd(name, age, gender) {
+    console.log(name, age, gender);
 }
-abcd("Swastik", 20, function (argr) {
-    console.log("abcd");
-});
+abcd("Swastik", 20, "male");

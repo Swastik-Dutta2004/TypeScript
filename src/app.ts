@@ -1,7 +1,5 @@
-function abcd(name: string, age:number, cd:(argr: string) => void){
-    cd("hey")
-}
-abcd("Swastik", 20, (argr: string) => {
-    console.log("abcd");
+function abcd(name: string, age:number, gender? : string){
+    console.log(name, age, gender);
     
-})
+}
+abcd("Swastik", 20, "male" )
