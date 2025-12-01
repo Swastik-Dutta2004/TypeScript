@@ -1,10 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getfunction = getfunction;
-exports.addfunction = addfunction;
-function getfunction(name) {
-    console.log(name);
-}
-function addfunction(roll) {
-    console.log(roll);
-}
+var payment = /** @class */ (function () {
+    function payment(price) {
+        this.price = price;
+    }
+    return payment;
+}());
+exports.default = payment;

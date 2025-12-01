@@ -1,4 +1,4 @@
-import {getfunction, addfunction} from "./conect"
+import payment from "./conect"
 
-getfunction("swastik")
-addfunction(20)
+let a = new payment(2000000)
+console.log(a);
