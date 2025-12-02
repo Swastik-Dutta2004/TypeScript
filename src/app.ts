@@ -1,4 +1,2 @@
-import payment from "./conect"
-
-let a = new payment(2000000)
+let a = Number("12")
 console.log(a);
