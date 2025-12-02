@@ -1,2 +1,15 @@
-let a = Number("12")
-console.log(a);
+function abcd(arg: number | string){
+    if (typeof arg === "number") {
+        return("Number")
+    }
+    else if (typeof arg === "string") {
+        return "String"
+    }
+    else{
+        console.log("Chala jah BSDK");
+        
+    }
+}
+
+abcd(2004)
+abcd("swastik")
